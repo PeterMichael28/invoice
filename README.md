@@ -34,3 +34,38 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Work flow
+- create nextjs project
+- implement auth js
+    -   Send email magic links with mailtrap and nodemailer
+- create custom verify route
+- create onboarding routes
+- create a dashboard layout
+- create inbox mgt route
+    - create invoice
+        - send email to client on completion
+        - create a nice looking template from scratch
+        - create a custom pdf and attach to the email
+    - edit invoice
+        - send email to client on completion
+        - create a custom template
+    
+    - send reminder email to client
+        - email empath using the no code template from mailtrap.
+    
+    - donwload the invoice
+    - delete invoice
+    - mark invoice as paid
+
+- create a dashboard index route (analytics)
+    - main info and charts
+
+- optimization , streaming and beautiful selection
+- create a landing page
+- deployment
+
+
+
+
